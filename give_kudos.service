@@ -1,0 +1,8 @@
+[Unit]
+Description=Strava give kudos
+
+[Service]
+Type=oneshot
+WorkingDirectory=/path/to/clone/dir
+EnvironmentFile=/path/to/clone/dir/give_kudos.env
+ExecStart=/path/to/python give_kudos.py

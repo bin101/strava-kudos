@@ -1,0 +1,10 @@
+[Unit]
+Description=Strava kudos timer
+
+[Timer]
+OnCalendar=8..21:0/15
+RandomizedDelaySec=15min
+Persistent=true
+
+[Install]
+WantedBy=timers.target
